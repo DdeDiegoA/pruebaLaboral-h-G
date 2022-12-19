@@ -1,0 +1,15 @@
+.emplyTable {
+    align-content: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.emplyPage {
+    width: 70%;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    margin-top: 10rem;
+    border-radius: 10px;
+}
+.action-icons {
+    cursor: pointer;
+}

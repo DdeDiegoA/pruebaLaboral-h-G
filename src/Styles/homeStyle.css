@@ -1,0 +1,59 @@
+.line {
+    width: 100%;
+    /* display: flex; */
+    /* gap: 1rem; */
+}
+.form-line {
+    display: flex;
+    /* flex-direction: row; */
+    gap: 0.5rem;
+}
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+    margin: auto;
+}
+.btn-line {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: rgb(191, 26, 26);
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+.btn-link {
+    color: white;
+    text-decoration: none;
+    width: 60%;
+    height: 100%;
+}
+
+.btn-line:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    background: rgb(19, 119, 19);
+    transform: translateY(0.2rem);
+}
+
+.btn-line:hover:not(:disabled) {
+    background: rgb(63, 57, 231);
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+
+.btn-line:disabled {
+    cursor: auto;
+    color: grey;
+}
+.form-section {
+    border-radius: 1rem;
+}
+.logginForm {
+    background-color: #f8f9fa;
+    width: 50%;
+    margin: auto;
+}

@@ -7,8 +7,8 @@ import EmployeeForm from "../pure/forms/employeeForm";
 
 const EmployeeList = () => {
     const defaultEmployee = [
-        new Employee("ramon", "valdez", STATES.ACTIVE, "fecha"),
-        new Employee("santiago", "ramirez", STATES.INACTIVE, "fecha"),
+        new Employee("ramon", "valdez", STATES.ACTIVE, "12/22/2022"),
+        new Employee("santiago", "ramirez", STATES.INACTIVE, "11/22/2022"),
     ];
 
     // eslint-disable-next-line no-unused-vars
